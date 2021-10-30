@@ -1,38 +1,114 @@
-.App {
+
+/* My Css */
+.header-logo-eco img {
+  width: 100%;
+}
+
+.test-ecommerce-header-nav-main {
+  height: 73px;
+  background-color: #f1f1f1;
+}
+
+.ecommerce-right-side-cart.text-right ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ecommerce-right-side-cart.text-right ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+.ecommerce-right-side-cart.text-right {
+  margin-top: 20px;
+}
+
+/* Single Product start */
+.producr-component-single-product {
+  height: 435px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.product-compo-pro-lst-single-item {
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+}
+.product-component-content-head h4 {
+  font-size: 17px;
+  color: #333;
+}
+.product-component-content-sec p {
+  font-size: 14px;
+  color: #838383;
+}
+.product-component-image-sec img {
+  width: 100%;
+  height: 281px;
+  padding: 6px;
+  margin-bottom: 7px;
+}
+.row.product-component-main-sec-ex-pdd {
+  margin-bottom: 10px;
+}
+/* Single Product End */
+
+/* Product Details Page Start */
+.product-details-ecomm-prod-mg img {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  padding: 12px;
+  border-radius: 6px;
+}
+.product-details-main-sec-box {
+  margin-top: 15px;
+}
+.product-details-ecomm-prod-content-box {
+  margin-top: 25px;
+}
+.product-details-ecomm-prod-cont-head h4 {
+  font-size: 20px;
+  color: #494949;
+  font-weight: 600;
+}
+.product-details-ecomm-prod-cont-head h6 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #0fd38c;
+  width: 100px;
   text-align: center;
+  height: 38px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 38px;
+  border-radius: 6px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-details-ecomm-prod-cont-cat-btn h6 {
+  color: #777575;
+  font-size: 14px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-details-ecomm-prod-cont-cat-btn p {
+  font-size: 14px;
+  color: #8f8c8c;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product-details-ecomm-prod-cont-cat-btn button {
+  background-color: tomato;
+  border: none;
+  border-radius: 6px;
+  padding: 3px 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  height: 35px;
+  margin-top: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.product-details-ecomm-prod-cont-cat-btn button:hover {
+  background-color: #f33c1b;
+  transition: .3s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Product Details Page End */
