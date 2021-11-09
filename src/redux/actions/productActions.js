@@ -1,4 +1,13 @@
+import storemainapi from "../../apis/StoreMainApi"
 import { ActionTypes } from "../contants/action-types"
+
+    export const fetchProducts = () => async (dispatch) => {
+        const response = await storemainapi.get("/products")
+        dispatch({
+            type: ActionTypes.FETCH_PRODUCTS,
+            payload: response.data
+        })
+}
 
 export const setProducts = (products) => {
     return {
